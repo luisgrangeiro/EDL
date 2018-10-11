@@ -6,6 +6,10 @@ Haskell é uma linguagem de programação funcional, de tipagem estática e impl
 Decidiu-se, então durante a conferência, que uma comissão seria formada para projetar uma nova linguagem que unificasse as melhores práticas de projeto de linguagem e implementasse as técnicas funcionais que eram discutidas na época. Para isso, em vez de começar uma linguagem do zero, elegeram Miranda como base para o projeto. 
 A versão 1.0 dessa nova linguagem foi liberada em 1990 e foi batizada de Haskell.
 
+
+Na linha do tempo abaixo podemos ver a origem de Haskell vinda de Miranda, que por sua vez teve influências de ML e Lisp.
+![Haskell](/Tarefas/tarefa-02/img/lps.jpg)
+
 ## Classificação
 Haskell é uma linguagem de programação puramente funcional. Diferentemente da programação imperativa, o paradigma funcional trata a computação com aplicação de funções e imutabilidade de dados. A imutabilidade de dados, significa que não existe alteração de estado. Por exemplo, uma função sempre irá retornar o mesmo valor X para uma mesma entrada Y, não existe a possibilidade de a função receber o parâmetro Y e retornar o valor Z.
 
