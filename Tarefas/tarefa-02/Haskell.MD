@@ -30,6 +30,22 @@ Agora digamos que desejamos verificar se o número 100 está contido nessa lista
 100 `elem`positives
 ```
 Com isso, temos o valor **True** retornado, significando que o núemro inteiro 100 está contido na lista positives, sendo que a lista só é avaliada até o número 100 ser encontrado.
+## Writability
+Para tratar do conceito de Writability vamos comparar os dois códigos a seguir:
+
+Haskell
+```haskell
+let shoppingList = ["Eggs", "Milk"]
+```
+Java
+```java
+ArrayList<String> shoppingList = new ArrayList<>();
+shoppingList.add("Eggs");
+shoppingList.add("Milk");
+```
+Nos dois casos definimos uma lista de string com dois elementos. No código em java, vemos que é necessário declarar que shoppingList é um ArrayList duas vezes e depois a atribuição dos elementos da lista é feita isoladamente.
+Em Haskell, é possível perceber que na própria declaração da variável já é feita a atribuição da lista de string. 
+Sendo assim, o código em Haskell sem declarações desnecessárias consegue definir uma lista de string.
 
 ## Expressividade
 Boa parte do poder de expressividade de Haskell pode ser conferido através do conceito de compreensão de listas.
@@ -56,9 +72,7 @@ Comparando com C#, podemos ver que seria necessário criar métodos e declarar t
 ```cs
 public List<int> DoublesList(List<int> list) {
         var list2 = new List<int>();
-            
         list.ForEach(x => { list2.Add(x * 2); });
-
         return list2;
 }
 ```
