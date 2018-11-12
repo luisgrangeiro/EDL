@@ -18,7 +18,7 @@ Haskell possui também inferência de tipo. Assim, se digitarmos um valor, True,
 
 ```haskell
 ghci> :t True
-True :: Boll
+True :: Bool
 ```
 
 ## Writability
@@ -142,6 +142,11 @@ int main()
   return 0;
 }
 ```
+
+##### Concluindo
+Se tratando de expressividade, vemos que a maior diferença se trata na criação de listas infinitas, que não é possível expressar em C ou Java. Em outras construções é possível expressar tanto em haskell quanto nas outras linguagens, mas fica claro que em haskell o código fica menor, muito mais simples e legível.
+
+
 ## Bibliografia
 ---
 * (SEBESTA, Robert W.) - Conceitos de linguagens de programação
